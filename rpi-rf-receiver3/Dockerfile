@@ -3,6 +3,7 @@ FROM $BUILD_FROM
 
 # Add env 
 ENV LANG C.UTF-8
+ENV CFLAGS "-fcommon"
 RUN apk add --no-cache \
         jq \
         clang \
