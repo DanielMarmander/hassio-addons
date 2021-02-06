@@ -24,7 +24,7 @@ RUN apk add --no-cache \
 && pip install -U pip \
 && pip3 install -U pip \
 && pip install -U virtualenv --ignore-installed 
-
+RUN pip install RPi.GPIO
 RUN pip install pyaes
 RUN pip install broadlink
 RUN pip install pycrypto
