@@ -15,6 +15,7 @@
     "privileged": ["SYS_RAWIO"],
     "gpio": "true",
     "apparmor": "false",
+    "full_access": "true",
     "init": "false",
     "ports": {"5055/tcp": null},
     "options": {
