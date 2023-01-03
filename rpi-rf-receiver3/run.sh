@@ -22,4 +22,7 @@ then
     fi
     pip install -U ${requirements}
 fi
+ls -lh /dev/gpiomem
+ls -lh /dev/mem
+whoami
 python ${code} 
